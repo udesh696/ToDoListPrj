@@ -4,7 +4,15 @@ const ToDoItemSchema = new mongoose.Schema(
     {
         item:{
             type:String,
+            required:false
+        },
+        status:{
+            type:Boolean,
             required:true
+        },
+        imagekey:{
+            type:String,
+            required:false
         }
     }
 )

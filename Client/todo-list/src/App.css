@@ -50,6 +50,13 @@
 .item-content{
   width: 60%
 }
+.item-contenttrue{
+  background-color: aquamarine;
+  width: 60%
+}
+.item-contentfalse{
+  width: 60%
+}
 .todo-item button{
   border: none;
   border-radius: 6px;
@@ -58,6 +65,10 @@
 }
 .todo-item button:focus{
   outline:none
+}
+.done-item{
+  background-color: rgb(75, 218, 32);
+  color:#fff;
 }
 .update-item{
   background-color: goldenrod;
